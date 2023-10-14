@@ -200,16 +200,16 @@
                             <p>The type decides how the zone will be replicated across multiple DNS servers.</p>
                             <ul>
                                 <li>
-                                    Native - PowerDNS will not perform any replication. Use this if you only have one
-                                    PowerDNS server or you handle replication via your backend.
+                                    Native - DNS will not perform any replication. Use this if you only have one
+                                    DNS server or you handle replication via your backend.
                                 </li>
                                 <li>
-                                    Primary - This PowerDNS server will serve as the primary and will send zone
+                                    Primary - This DNS server will serve as the primary and will send zone
                                     transfers
                                     (AXFRs) to other servers configured as secondaries.
                                 </li>
                                 <li>
-                                    Secondary - This PowerDNS server will serve as the secondaries and will request and
+                                    Secondary - This DNS server will serve as the secondaries and will request and
                                     receive
                                     zone transfers (AXFRs) from other servers configured as primaries.
                                 </li>
@@ -303,7 +303,7 @@
                         </div>
                         <!-- /.card-header -->
                         <div class="card-body">
-                            <p>This function is used to remove a zone from PowerDNS-Admin <b>AND</b> PowerDNS. All
+                            <p>This function is used to remove a zone from DNS Admin. All
                                 records and
                                 user privileges associated with this zone will also be removed. This change cannot be
                                 reverted.</p>
